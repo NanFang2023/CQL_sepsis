@@ -1,0 +1,27 @@
+2023-06-07 13:15:13,245 INFO    MainThread:629894 [wandb_setup.py:_flush():76] Current SDK version is 0.15.2
+2023-06-07 13:15:13,245 INFO    MainThread:629894 [wandb_setup.py:_flush():76] Configure stats pid to 629894
+2023-06-07 13:15:13,245 INFO    MainThread:629894 [wandb_setup.py:_flush():76] Loading settings from /home/fn/.config/wandb/settings
+2023-06-07 13:15:13,245 INFO    MainThread:629894 [wandb_setup.py:_flush():76] Loading settings from /home/fn/Mynew_Spesis/sepsisrl-master/CQL-new/SimpleSAC/wandb/settings
+2023-06-07 13:15:13,245 INFO    MainThread:629894 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-07 13:15:13,245 INFO    MainThread:629894 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-07 13:15:13,245 WARNING MainThread:629894 [wandb_setup.py:_flush():76] Could not find program at -m conservative_sac_main
+2023-06-07 13:15:13,246 INFO    MainThread:629894 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program': '-m conservative_sac_main'}
+2023-06-07 13:15:13,246 INFO    MainThread:629894 [wandb_init.py:_log_setup():507] Logging user logs to ./experiment_output/0561e18d37604868ae62c6feb720f959/wandb/run-20230607_131513-0561e18d37604868ae62c6feb720f959/logs/debug.log
+2023-06-07 13:15:13,246 INFO    MainThread:629894 [wandb_init.py:_log_setup():508] Logging internal logs to ./experiment_output/0561e18d37604868ae62c6feb720f959/wandb/run-20230607_131513-0561e18d37604868ae62c6feb720f959/logs/debug-internal.log
+2023-06-07 13:15:13,246 INFO    MainThread:629894 [wandb_init.py:init():547] calling init triggers
+2023-06-07 13:15:13,246 INFO    MainThread:629894 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {'env': 'hopper-medium-v0', 'max_traj_length': 1000, 'seed': 42, 'device': 'cuda', 'save_model': False, 'batch_size': 256, 'reward_scale': 1.0, 'reward_bias': 0.0, 'clip_action': 0.999, 'policy_arch': '256-256', 'qf_arch': '256-256', 'orthogonal_init': False, 'policy_log_std_multiplier': 1.0, 'policy_log_std_offset': -1.0, 'n_epochs': 2000, 'bc_epochs': 0, 'n_train_step_per_epoch': 1000, 'eval_period': 10, 'eval_n_trajs': 5, 'cql.alpha_multiplier': 1.0, 'cql.backup_entropy': False, 'cql.cql_clip_diff_max': inf, 'cql.cql_clip_diff_min': -inf, 'cql.cql_importance_sample': True, 'cql.cql_lagrange': False, 'cql.cql_max_target_backup': False, 'cql.cql_min_q_weight': 5.0, 'cql.cql_n_actions': 10, 'cql.cql_target_action_gap': 1.0, 'cql.cql_temp': 1.0, 'cql.discount': 0.99, 'cql.optimizer_type': 'adam', 'cql.policy_lr': 0.0003, 'cql.qf_lr': 0.0003, 'cql.soft_target_update_rate': 0.005, 'cql.target_entropy': 0.0, 'cql.target_update_period': 1, 'cql.use_automatic_entropy_tuning': True, 'cql.use_cql': True, 'logging.anonymous': None, 'logging.experiment_id': None, 'logging.notes': None, 'logging.online': True, 'logging.output_dir': './experiment_output', 'logging.prefix': 'SimpleSAC', 'logging.project': 'sac', 'logging.random_delay': 0.0, 'hostname': 'iotustc-PowerEdge-T630'}
+2023-06-07 13:15:13,246 INFO    MainThread:629894 [wandb_init.py:init():596] starting backend
+2023-06-07 13:15:13,246 INFO    MainThread:629894 [wandb_init.py:init():600] setting up manager
+2023-06-07 13:15:13,250 INFO    MainThread:629894 [wandb_init.py:init():606] backend started and connected
+2023-06-07 13:15:13,253 INFO    MainThread:629894 [wandb_init.py:init():700] updated telemetry
+2023-06-07 13:15:13,254 INFO    MainThread:629894 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-06-07 13:15:14,091 INFO    MainThread:629894 [wandb_run.py:_on_init():2177] communicating current version
+2023-06-07 13:15:14,562 INFO    MainThread:629894 [wandb_run.py:_on_init():2186] got version response upgrade_message: "wandb version 0.15.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-06-07 13:15:14,562 INFO    MainThread:629894 [wandb_init.py:init():787] starting run threads in backend
+2023-06-07 13:15:19,467 INFO    MainThread:629894 [wandb_run.py:_console_start():2158] atexit reg
+2023-06-07 13:15:19,468 INFO    MainThread:629894 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-06-07 13:15:19,468 INFO    MainThread:629894 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-06-07 13:15:19,468 INFO    MainThread:629894 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-06-07 13:15:19,468 INFO    MainThread:629894 [wandb_init.py:init():829] run started, returning control to user process
